@@ -8,7 +8,9 @@
       "removeComments": true,
       "sourceMap": true,
       "allowJs": true,
-      "jsx": "react"
+      "jsx": "react",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
     },
     "exclude": [
       "./node_modules/**/*"
