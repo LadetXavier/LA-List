@@ -69,12 +69,7 @@ module.exports = {
       // Images
       {
         test: /\.(ico|gif|png|jpe?g|webp|svg)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: { outputPath: 'images/' },
-          },
-        ],
+        type: 'asset/resource'
       },
     ],
   },

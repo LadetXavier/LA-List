@@ -1,4 +1,10 @@
-@import 'reset';
+
+@use './reset.scss';
+@use './template';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
 
 @font-face {
   font-family: 'Roboto';
@@ -10,6 +16,8 @@ body {
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
+  background: #363637;
+  color: #e4e4e4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,3 +25,44 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-size: 1.2rem;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: auto;  
+}
+
+.body__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(34, 34, 34, 0.719);
+}
+
+.header__logo {
+ 
+  width: 20vw;
+  height: 10vh;  
+  background-image: url("../images/LA_LOGO.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.header__sub-title {  
+  font-family: 'Tapestry',cursive;
+  font-size: 1.2em;
+  
+}
+
+.add-character__Plus-container {
+  height: 0px;  
+}
+
+.add-character__Plus {
+  display: block;
+  max-width: 5%;
+}
+
+
