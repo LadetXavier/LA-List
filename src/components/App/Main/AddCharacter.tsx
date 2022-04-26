@@ -2,7 +2,11 @@ import React from 'react'
 
 const AddCharacter = () => {
   return (
-    <div>AddCharacter</div>
+    <section className='add-character'>
+        <div className='add-character__Plus'>
+            <img src="../../../assets/img/Plus-brush.png" alt="+" />
+        </div>
+    </section>
   )
 }
 

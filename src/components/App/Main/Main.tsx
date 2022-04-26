@@ -6,9 +6,13 @@ import Setting from './Setting';
 
 const Main = () => {
   return (
-    <div>
+    <main className='main'>
+      <Setting></Setting>
+      <Character></Character>
+      <Character></Character>
+      <AddCharacter></AddCharacter>
         
-    </div>
+    </main>
   )
 }
 

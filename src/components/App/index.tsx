@@ -8,7 +8,7 @@ import './styles.css';
 
 // == Composant
 const App = () => (
-  <div>
+  <div id="app">
     <Header/>    
     <Main/>
   </div>
