@@ -10,8 +10,14 @@
       "allowJs": true,
       "jsx": "react",
       "esModuleInterop": true,
-      "allowSyntheticDefaultImports": true,
-    },
+      "allowSyntheticDefaultImports": true,      
+      "resolveJsonModule": true,
+      "lib": [
+        "es6",
+        "dom",
+        "es2017"
+      ],      
+    },    
     "exclude": [
       "./node_modules/**/*"
     ]

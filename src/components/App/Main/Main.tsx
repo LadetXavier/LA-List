@@ -8,8 +8,7 @@ const Main = () => {
   return (
     <main className='main'>
       <Setting></Setting>
-      <Character></Character>
-      <Character></Character>
+      <Character name="Main"></Character>      
       <AddCharacter></AddCharacter>
         
     </main>

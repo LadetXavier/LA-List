@@ -1,0 +1,64 @@
+{
+  "Dailies": [
+    {
+      "name": "Chaos Dungeon",
+      "icon": "ChaosDungeon"
+    },
+    {
+      "name": "Guardian",
+      "icon": "Guardian"
+    },
+    {
+      "name": "guild Donation",
+      "icon": "Donate"
+    },
+    {
+      "name": "Trade skill",
+      "icon": "Gathering"
+    },{
+      "name": "Anguished",
+      "icon": "Anguish"
+    },
+    {
+      "name": "Adventure island",
+      "icon": "Adventure"
+    }
+  ],
+  "Weekly": [
+    {
+      "name": "Weekly quest",
+      "icon": "none"
+    },
+    {
+      "name": "Abyss Dun",
+      "icon": "Abyss"
+    },
+    {
+      "name": "Argos",
+      "icon": "Raid"
+    },
+    {
+      "name": "Pirates",
+      "icon": "none"
+    },
+    {
+      "name": "Guild stones",
+      "icon": "none"
+    }
+
+  ],
+  "UniversalWeekly": [
+    {
+      "name": "Event shop",
+      "icon": "none"
+    },
+    {
+      "name": "Ghost ship",
+      "icon": "none"
+    },
+    {
+      "name": "Pvp shop",
+      "icon": "none"
+    }
+  ]
+}

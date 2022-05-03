@@ -83,3 +83,60 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   max-width: 100%;
 }
+
+.character {
+  display: flex;
+}
+
+.character__header {
+display: flex;
+width: 20%;
+}
+
+.character__arrow {
+width: 25%;
+transform: rotate(180deg);
+}
+.character__arrow-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.character__name-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character__checks{
+display: flex ;
+width: 70%;
+flex-wrap: wrap;
+}
+
+.task-container{
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.task__checkbox{
+  width: 50%;
+  transform:scale(2) ;
+}
+.task__icon{
+  display: block;
+  width: 75%;  
+  margin: auto;
+}
+
+.task__label{
+  width: 50%;
+}
+
+.character__quest{
+display: flex;
+width: 10%;
+}
