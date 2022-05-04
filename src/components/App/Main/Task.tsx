@@ -3,8 +3,7 @@ import React from 'react'
 import {taskObject} from './TypeDeclaration';
 
 const Task = ({taskDetail}:{taskDetail:taskObject}) => {
-    console.log(taskDetail);
-    console.log(taskDetail.name);
+    
     let iconOrName = (taskDetail:taskObject) => {
         if(taskDetail.icon === "none") {
             return(taskDetail.name)
